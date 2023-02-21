@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * Return: Always 0 (sucess)
  *
@@ -9,8 +9,8 @@
 int main(void)
 {
 char M;
-for(M = 'a'; M <= 'z'; M++)
-	{putchar(M);}
+for (M = 'a'; M <= 'z'; M++)
+	{putchar(M); }
 putchar('\n');
-return 0;
+return (0);
 }
