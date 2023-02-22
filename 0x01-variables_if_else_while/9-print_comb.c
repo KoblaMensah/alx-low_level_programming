@@ -20,6 +20,5 @@ if (n != 57)
 else
 	putchar(n);
 }
-putchar('\n');
 return (0);
 }
