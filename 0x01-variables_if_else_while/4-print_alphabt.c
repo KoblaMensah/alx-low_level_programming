@@ -12,10 +12,8 @@ char M;
 
 for (M = 'a'; M <= 'z'; M++)
 {
-if (M == 'e' || M == 'q')
-	{M++; }
-else
-	putchar(M);
+	if (M != 'q' && M != 'e')
+		putchar(M);
 
 };
 putchar('\n');
