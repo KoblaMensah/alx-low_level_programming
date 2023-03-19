@@ -18,7 +18,6 @@ while (src[i] != '\0' && n > 0)
 	i++;
 	n--;
 	}
-dest[i] = '\0';
 return (dest);
 
 }
