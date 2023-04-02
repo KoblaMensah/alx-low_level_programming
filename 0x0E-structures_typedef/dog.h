@@ -4,7 +4,7 @@
 /**
  * struct dog - dog's basic info
  * @name: First member
- * @agie: Second member
+ * @age: Second member
  * @owner: Third member
  *
  * Description: Longer description
